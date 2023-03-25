@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- Background image -->
+    <div class="background-image" class="bg-image " style="
+  background-image: url('https://images.pexels.com/photos/8926648/pexels-photo-8926648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  height: 100%;
+  width: 100%;
+">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <main>
+
+            <div class="container-fluid " style="margin-top: 50px;">
+                <div class="row">
+                    <div class="col-3">
+
+                    </div>
+
+                    <div class="col-6">
+                        <!-- <form action="">
+                            <input type="text" id="name" name="name">
+                            <input type="date" id="birthDate" name="birthDate">
+                            <input type="radio" id="gender1" name="gender" value="Female"> <label
+                                for="gender1">Female</label>
+                            <input type="radio" id="gender2" name="gender" value="Male"> <label for="gender2">Male</label>
+                            <input type="number" id="phoneNo" name="phoneNo">
+                            <input type="number" id="grade" name="grade">
+                        </form> -->
+
+                        <form id="myForm">
+                            <!-- 2 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="form3Example1">First name</label>
+                                        <input type="text" id="user" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Birthdate input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form3Example3">BirthDate</label>
+                                <input type="date" id="birthDate" class="form-control" />
+                            </div>
+
+                            <!-- Gender input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form3Example4">Gender</label> <br>
+                                <input type="radio" id="gender1" name="gender" value="Female" /><label
+                                    for="gender1">Female</label><br>
+                                <input type="radio" id="gender2" name="gender" value="Male" /> <label
+                                    for="gender2">Male</label>
+                            </div>
+
+                            <!-- Number input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form6Example6">Phone</label>
+                                <input type="number" id="phone" class="form-control" />
+                            </div>
+
+                            <!-- Grade input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form6Example6">Grade</label>
+                                <input type="number" id="grade" class="form-control" />
+                            </div>
+
+
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+
+                        </form>
+
+                    </div>
+
+                    <div class="col-3">
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="table-container">
+                <h2>Students List</h2>
+                <table id="userInfo">
+                    <thead>
+                        <tr class="info">
+                            <th>Full Name:</th>
+                            <th>Date of Birth:</th>
+                            <th>Gender:</th>
+                            <th>Phone Number:</th>
+                            <th>Grade:</th>
+                        </tr>
+                    </thead>
+                    <tbody id="students-list">
+                    </tbody>
+                </table>
+            </div>
+
+
+
+        </main>
+
+
+    </div>
+    <!-- Background image -->
+
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-dark" href="#">School</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
