@@ -88,6 +88,15 @@
                                     for="gender2">Male</label>
                             </div>
 
+                            <select name="major" id="major">
+                                <option value="Administration">Administration</option>
+                                <option value="IT">IT</option>
+                                <option value="Science">Science</option>
+                                <option value="Art">Art</option>
+                            </select>
+
+                            <img src="" alt="">
+
                             <!-- Number input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="form6Example6">Phone</label>
@@ -95,11 +104,15 @@
                             </div>
 
                             <!-- Grade input -->
-                            <div class="form-outline mb-4">
+                            <!-- <div class="form-outline mb-4">
                                 <label class="form-label" for="form6Example6">Grade</label>
                                 <input type="number" id="grade" class="form-control" />
-                            </div>
+                            </div> -->
 
+                            <!-- image input -->
+
+                            <input type="text" name="userimg" id="userimg" value="/student.png"
+                                placeholder="user image src ">
 
                             <!-- Submit button -->
                             <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
@@ -115,7 +128,7 @@
                 </div>
             </div>
 
-            <div class="table-container">
+            <!-- <div class="table-container">
                 <h2>Students List</h2>
                 <table id="userInfo">
                     <thead>
@@ -130,9 +143,9 @@
                     <tbody id="students-list">
                     </tbody>
                 </table>
-            </div>
+            </div> -->
 
-
+            <div id="student_card"></div>
 
         </main>
 
